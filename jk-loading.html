@@ -3,7 +3,7 @@
  * @Author: wangzhuohua
  * @Date: 2022-03-03 09:03:05
  * @LastEditors: wangzhuohua
- * @LastEditTime: 2022-03-03 10:56:59
+ * @LastEditTime: 2022-03-03 11:53:19
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +32,7 @@
             height: var(--containerWidth);
             margin: 300px auto;
             position: relative;
-            animation: containerFrames 3.4s linear infinite;
+            animation: containerFrames 1s linear infinite;
         }
 
         .box {
@@ -68,11 +68,11 @@
 
         .container>.box:first-child {
             z-index: 1;
-            animation: firstFrames 3.4s linear infinite;
+            animation: firstFrames 1s linear infinite;
         }
 
         .container>.box:last-child {
-            animation: lastFrames 3.4s linear infinite;
+            animation: lastFrames 1s linear infinite;
         }
 
         @keyframes firstFrames {
@@ -80,7 +80,7 @@
                 transform: rotate(0deg);
             }
 
-            29.4% {
+            30% {
                 transform: rotate(180deg);
             }
 
@@ -95,17 +95,17 @@
                 z-index: 0;
             }
 
-            29.4% {
+            30% {
                 transform: rotate(0deg);
                 z-index: 0;
             }
 
-            35.3% {
+            35% {
                 transform: rotate(0deg);
                 z-index: 2;
             }
 
-            64.74% {
+            65% {
                 transform: rotate(-180deg);
                 z-index: 2;
             }
@@ -121,7 +121,7 @@
                 transform: rotate(0deg);
             }
 
-            70.6% {
+            70% {
                 transform: rotate(0deg);
             }
 
